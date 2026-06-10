@@ -7,9 +7,20 @@ import MainSection from '@/pdf/sections/main-section.pdf.astro';
 import PortfolioSection from '@/pdf/sections/portfolio-section.pdf.astro';
 import SkillsSection from '@/pdf/sections/skills-section.pdf.astro';
 
-import cv from '@/data';
+import cv, { hideSection, renameSkillSet, hideSkillSet, hideJob } from '@/data';
 
-const { config, sections } = cv();
+const { config, sections } = cv(
+  hideSection('portfolio'),
+
+  // Skills
+  renameSkillSet('I already know', 'Technologies'),
+  hideSkillSet('I want to learn'),
+  renameSkillSet('I speak', 'Languages'),
+
+  // Experience
+  hideJob('Finance Assistant', 'Łazienkaplus.pl'),
+  hideJob('Internship in the Sales Operations Department', 'Imperial Tobacco Polska S.A')
+);
 
 const shouldRenderSection = (section: keyof typeof sections) => sections[section] && sections[section].config.visible;
 ---

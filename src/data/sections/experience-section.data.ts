@@ -2,17 +2,31 @@ import type { ExperienceSection } from '@/types/sections/experience-section.type
 import type { ReadonlyDeep } from 'type-fest';
 import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
-  nextJs,
-  nx,
-  pnpm,
-  react,
-  reactQuery,
-  tailwindCss,
-  typescript,
-  vue,
+  postgreSql,
+  Excel,
+  sql,
+  powerQuery,
+  powerBI,
+  ssrs,
+  sqlServer,
+  ssms,
+  azureSqlDatabase,
+  dax,
+  ssis,
+  excelVBA,
+  tableau,
+  python,
+  pyspark,
+  r,
+  powerAutomate,
+  powerApps,
+  docker,
+  oracle,
+  microsoftFabric,
+  microsoftAzure,
+  azureDevOps,
+  figma,
+  powerpoint,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,59 +38,91 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Senior Reporting Analyst',
+      company: 'Carlsberg Shared Services',
+      image: import('@/assets/logos/carlsberg.jpg'),
+      dates: [new Date('2026-04'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        - <b>Developing and Maintaining Reports</b>: designed, enhanced and maintaining advanced PowerBI report to provide data-driven insights for business stakeholders.
+        - <b>Process Automation</b>: Building scalable solutions that significantly increased operational efficiency by using Fabric tools and Pyspark language.
+        - <b>Stakeholder Collaboration</b>: Communicating with finance stakeholders to ensure alignment with evolving business requirements.
+        - <b>Training and Development</b>: Conducted training sessions on Power BI basics, enabling users to effectively learn new tool and analyze data.
+        - <b>Mentoring</b>: Mentored newly onboarded team members and actively participated in technical recruitment processes, assessing candidates technical competencies.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [powerBI(), dax(), microsoftFabric(), oracle(),excelVBA(),powerQuery(),powerpoint(),powerAutomate(), python(), pyspark(),azureSqlDatabase(),azureDevOps()],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [linkedin({ url: 'https://www.linkedin.com/company/carlsbergsharedservices' }), website({ url: 'https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/carlsberg-shared-services/' })],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
+      role: 'Reporting Analyst',
+      company: 'Carlsberg Shared Services',
+      image: import('@/assets/logos/carlsberg.jpg'),
+      dates: [new Date('2024-11'), new Date('2026-04')],
       description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
+        - <b>Developing & Enhancing</b>: Building new, insightful reports and implementing smart improvements to existing dashboards.
+        - <b>Business Partnering</b>: Collaborating closely with operational and financial teams to gather, translate, and deliver on their reporting requirements.
+        - <b>Automation focus</b>: Participating in the automation of reporting processes.
+        - <b>Ensuring Quality</b>: Performing robust data validation to guarantee accuracy and consistency the reports.
+        - <b>Documentation</b>: Maintaining reporting documentation to ensure knowledge sharing across the team.
+        - <b>User Empowerment</b>: Supporting in training sessions to help end-users maximize the value of analytical tools.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [powerBI(), dax(), microsoftFabric(), oracle(),excelVBA(),powerQuery(),powerpoint(),powerAutomate()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [linkedin({ url: 'https://www.linkedin.com/company/carlsbergsharedservices' }), website({ url: 'https://www.carlsberggroup.com/who-we-are/about-the-carlsberg-group/carlsberg-shared-services/' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Junior Wholesale Analysis Specialist',
+      company: 'Imperial Tobacco Polska S.A',
+      image: import('@/assets/logos/imperial2.png'),
+      dates: [new Date('2024-04'), new Date('2024-11')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        - Creating visualizations according to the company profile and optimizing measures using DAX language.
+        - Creating data models and their relationships from various sources.
+        - Taking a practical approach to translating business requirements into technical solutions by actively participating in internal projects.
+        - Providing support to the department in daily tasks related to collaborating with Sales and Marketing areas in the analysis of sales data.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [powerBI(), dax(), sqlServer(), ssrs(),ssis(),excelVBA()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [linkedin({ url: 'https://www.linkedin.com/company/imperial-tobacco-polska' }), website({ url: 'https://imperial-tobacco.pl/' })],
+    },
+    {
+      role: 'Internship in the Sales Operations Department',
+      company: 'Imperial Tobacco Polska S.A',
+      image: import('@/assets/logos/imperial2.png'),
+      dates: [new Date('2023-01'), new Date('2024-04')],
+      description: `
+        - Gaining and expanding knowledge in the field of analyzing large volumes of data.
+        - Practical use of the following tools: SQL Server, Power BI, Oracle Business Intelligence.
+        - Actively participating in departmental projects and carrying out tasks under the supervision of a mentor.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [powerBI(), dax(), sqlServer(), ssrs(),Excel()],
+      },
+      links: [linkedin({ url: 'https://www.linkedin.com/company/imperial-tobacco-polska' }), website({ url: 'https://imperial-tobacco.pl/' })],
+    },
+    {
+      role: 'Finance Assistant',
+      company: 'Łazienkaplus.pl',
+      image: import('@/assets/logos/lazienkaplus.png'),
+      dates: [new Date('2021-07'), new Date('2022-12')],
+      description: `
+        - Administrative support during budget preparation.
+        - Creating reports for the company's needs using BI tools.
+        - Conducting ad‑hoc analyses of data and participating in internal projects.
+        - Preparation of statements and reports in the area of controlling with their presentation
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [Excel(), excelVBA(), powerpoint()],
+      },
+      links: [linkedin({ url: 'https://www.linkedin.com/company/%C5%82azienkaplus-pl' }), website({ url: 'https://www.lazienkaplus.pl/' })],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
