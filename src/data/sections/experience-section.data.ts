@@ -41,7 +41,7 @@ const experienceSectionData = {
       role: 'Senior Reporting Analyst',
       company: 'Carlsberg Shared Services',
       image: import('@/assets/logos/carlsberg.jpg'),
-      dates: [new Date('2026-04'), null],
+      dates: [new Date('2026-01'), null],
       description: `
         - <b>Developing and Maintaining Reports</b>: designed, enhanced and maintaining advanced PowerBI report to provide data-driven insights for business stakeholders.
         - <b>Process Automation</b>: Building scalable solutions that significantly increased operational efficiency by using Fabric tools and Pyspark language.
@@ -59,7 +59,7 @@ const experienceSectionData = {
       role: 'Reporting Analyst',
       company: 'Carlsberg Shared Services',
       image: import('@/assets/logos/carlsberg.jpg'),
-      dates: [new Date('2024-11'), new Date('2026-04')],
+      dates: [new Date('2024-11'), new Date('2026-01')],
       description: `
         - <b>Developing & Enhancing</b>: Building new, insightful reports and implementing smart improvements to existing dashboards.
         - <b>Business Partnering</b>: Collaborating closely with operational and financial teams to gather, translate, and deliver on their reporting requirements.
