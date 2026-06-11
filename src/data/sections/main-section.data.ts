@@ -23,7 +23,7 @@ const mainSectionData = {
     { label: 'Email', value: 'kasperczakbartosz.bi@gmail.com' },
     { label: 'LinkedIn', value: 'in/bartoszkasperczak/', url: 'https://www.linkedin.com/in/bartoszkasperczak/' },
     { label: 'GitHub', value: '/Ciachula', url: 'https://github.com/Ciachula' },
-    { label: 'Website', value: 'mark-freeman-personal-website.com', url: '/', fullRow: true },
+    { label: 'Website', value: 'bkdata.dev', url: '/', fullRow: true },
   ],
   description:
     'I’m a BI Developer with 3 years of experience turning complex data into clear, actionable insights. I specialize in designing and maintaining advanced Power BI dashboards, building scalable solutions using analytical tools, and automating processes to improve efficiency. I enjoy collaborating with business stakeholders, sharing knowledge with colleagues, and contributing to innovative data projects. My goal is to deliver high-quality BI solutions that help organizations make informed decisions and drive growth.',

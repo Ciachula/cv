@@ -13,7 +13,7 @@ const config = {
   meta: {
     title: 'Bartosz Kasperczak - Senior Reporting Analyst',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+      'CV Bartosz Kasperczak',
     faviconPath: '/src/assets/myimage22.png',
   },
   pdf: {
