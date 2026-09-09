@@ -10,6 +10,14 @@ const testimonialsSectionData = {
     visible: true,
   },
   testimonials: [
+        {
+      image: import('@/assets/testimonials/course8.jpg'),
+      author: 'Python for Data Analysis',
+      relation: 'Crappy Data',
+      content:
+        'This intensive 6-month Python program covered data analysis and visualization (Pandas, Matplotlib, Seaborn), statistics, and introductory machine learning with Scikit-learn.',
+      links: [website({ url: 'https://certificate.certesto.com/2d7940cb-b162-4402-9259-bd2e0c5b1e13' })],
+    },
     {
       image: import('@/assets/testimonials/course7.png'),
       author: 'Fabric Data Engineer Associate',
